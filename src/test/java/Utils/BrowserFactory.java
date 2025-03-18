@@ -24,9 +24,7 @@ driver.manage().window().maximize();
 driver.get(url);
     return driver;
 }
-@Test
-public void test(){
-    startBrowser ("chrome" , "https://www.saucedemo.com/");
+
 }
 
 }
